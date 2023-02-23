@@ -9,7 +9,7 @@
 }
 .desc__container {
     width: 1110px;
-    border: 3px solid #c4c4c4;
+    border: 3px solid #c4c4c4; 
     padding: 60px 0;
     display: flex;
     align-items: center;
