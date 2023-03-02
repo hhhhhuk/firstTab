@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: center;
+}
+.header__content {
+    background-color: rgb(240, 220, 132)  ;
+    width: 1110px;
+}
+.header__top {
+    display: flex;
+    justify-content: space-between;
+}
+.header__bottom {
+    display: flex;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    justify-content: space-between;
+}
+.header__bottom-link {
+    width: 270px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #fff;
+}
+.header__bottom-link:last-of-type {
+    border: none;
+}
