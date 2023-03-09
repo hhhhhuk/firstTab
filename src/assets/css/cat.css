@@ -1,0 +1,16 @@
+.menu_top:hover ~ .class_menu {
+    opacity: 100;
+    transition: 5s;
+}
+.class_menu {
+    opacity: 0;
+
+}
+
+.menu_top {
+    width: max-content;
+    background-image: url("../img/png.png");
+    background-size:100% auto;
+    cursor: help;
+   background-repeat: no-repeat;
+}
