@@ -1,0 +1,21 @@
+.button_group {
+    display: flex;
+    gap: 30px;
+}
+.button {
+    width: 192px;
+    height: 50px;
+    background: #998431;
+    color: white;
+    font-size: 16px;
+    font-weight: 500px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+@media (max-width:768px) {
+    .button {
+        width: 130px;
+        font-size: 14px;
+    }
+}

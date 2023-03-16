@@ -1,0 +1,10 @@
+.pivo {
+    background: url(../img/pivo.jpg);
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 150px;
+}

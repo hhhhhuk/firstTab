@@ -1,0 +1,35 @@
+.menu_burger {
+}
+.menu-btn {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    top: 17px;
+    left: 17px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    z-index: 100;
+}
+.menu-box {
+}
+#menu__toggle {
+    opacity: 0%;
+}
+.menu-btn > span,
+.menu-btn > span::after,
+.menu-btn > span::before {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1.5px;
+    background-color: aquamarine;
+}
+.menu-btn > span::before {
+    content: "";
+    top: -8px;
+}
+.menu-btn > span::after {
+    content: "";
+    top: 8px;
+}

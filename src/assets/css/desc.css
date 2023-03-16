@@ -19,7 +19,8 @@
 }
 .desc__tittle {
     color: white;
-    width: max-content;
+    width: 100%;
+    text-align: center;
 }
 .desc__text {
     color: white;

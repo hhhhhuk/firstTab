@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
 @import url(normalize.css);
 @import url(desc.css);
 @import url(header.css);
 @import url(cat.css);
+@import url(button.css);
+@import url(pivo.css);
+@import url(eda.css);
+
