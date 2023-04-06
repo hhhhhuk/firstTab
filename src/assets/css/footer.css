@@ -21,6 +21,7 @@
     width: 100%;
     padding-left: 93px;
     padding-right: 93px;
+    flex-wrap: wrap;
 }
 .nav__item {
     line-height: 150%;
@@ -38,6 +39,7 @@
     padding-left: 93px;
     padding-right: 93px;
     width: 100%;
+    flex-wrap: wrap;
 }
 .bottom__link {
     height: 46px;

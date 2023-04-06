@@ -1,3 +1,8 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
 .collection {
     background-color: #e6e3c4;
     padding-top: 80px;
@@ -15,11 +20,13 @@
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    flex-wrap: wrap;
 }
 .collection__description {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    max-width: 445px;
 }
 hr {
     width: 160px;
@@ -83,6 +90,8 @@ hr {
 .collection__group-image {
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .collection__group-image img {
     max-width: 255px;
@@ -90,10 +99,21 @@ hr {
 }
 
 td {
-    border-bottom: 1px solid #282828;
     text-align: center;
 }
 
+tr {
+    border-bottom: 1px solid #282828;
+}
 
+tr:last-child {
+    border-bottom: 0;
+}
 
-
+@media (max-width:768px) {
+    .collection__group-image img {
+        width: 100%;
+        max-width: unset;
+        max-height: unset;
+    }
+}
