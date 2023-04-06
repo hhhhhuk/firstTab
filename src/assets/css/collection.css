@@ -27,14 +27,38 @@ hr {
     margin: 0;
 }
 .description__subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
 }
 .description__title {
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 150%;
 }
 .description__text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
 }
 .table__title {
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    line-height: 150%;
+    border-left: 1px solid #282828;
 }
 .table__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    border-left: 1px solid #282828;
+    
 }
 .collection__btn {
     background-color: #998431;
@@ -64,3 +88,12 @@ hr {
     max-width: 255px;
     max-height: 228px;
 }
+
+td {
+    border-bottom: 1px solid #282828;
+    text-align: center;
+}
+
+
+
+
